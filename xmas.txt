@@ -1,0 +1,20 @@
+# Nmap 7.80 scan initiated Sun Apr 13 22:15:51 2025 as: nmap -sX -p 1-1000 -oN /home/kirtest/net/atk/xmas.txt 192.168.0.128
+Nmap scan report for 192.168.0.128
+Host is up (0.0026s latency).
+Not shown: 988 closed ports
+PORT    STATE         SERVICE
+21/tcp  open|filtered ftp
+22/tcp  open|filtered ssh
+23/tcp  open|filtered telnet
+25/tcp  open|filtered smtp
+53/tcp  open|filtered domain
+80/tcp  open|filtered http
+111/tcp open|filtered rpcbind
+139/tcp open|filtered netbios-ssn
+445/tcp open|filtered microsoft-ds
+512/tcp open|filtered exec
+513/tcp open|filtered login
+514/tcp open|filtered shell
+MAC Address: 08:00:27:34:E2:AB (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Apr 13 22:15:52 2025 -- 1 IP address (1 host up) scanned in 1.74 seconds
